@@ -4,7 +4,7 @@ MAINTAINER Jacques Supcik <jacques@supcik.net>
 RUN mkdir /app
 ADD *.py /app/
 ADD requirements.txt /app/
-ADD LICENSE.txt /app/
+ADD LICENSE /app/
 
 WORKDIR /app
 RUN pip3 install -r requirements.txt
